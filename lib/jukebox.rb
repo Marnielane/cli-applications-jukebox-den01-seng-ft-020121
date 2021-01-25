@@ -51,7 +51,7 @@ end
 
 def run(songs)
   user_input = user_prompt
-  while user_input !== "exit" do
+  until user_input == "exit" do
     user_input == "help"
       help
   end
