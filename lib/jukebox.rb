@@ -51,7 +51,11 @@ end
 
 def run(songs)
   user_input = user_prompt
-
+  while user_input != "exit" do
+    if user_input == "help"
+      help
+    end
+  end
   if user_input == "exit"
     exit_jukebox
   end
